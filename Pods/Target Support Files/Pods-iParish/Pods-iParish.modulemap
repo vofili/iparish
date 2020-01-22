@@ -1,0 +1,6 @@
+framework module Pods_iParish {
+  umbrella header "Pods-iParish-umbrella.h"
+
+  export *
+  module * { export * }
+}

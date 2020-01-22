@@ -19,6 +19,7 @@
 		39C5C3FC23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C3FA23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf */; };
 		39C5C41C23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C41B23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift */; };
 		39C5C41E23D859FE00B9FC78 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C41D23D859FE00B9FC78 /* Extensions.swift */; };
+		66389650DDC37441EDF050D6 /* Pods_iParish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A00542158849E6C49B6121C /* Pods_iParish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,9 @@
 		39C5C3FA23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuenosAiresWeb-Bold.ttf"; sourceTree = "<group>"; };
 		39C5C41B23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentEventsTableViewCell.swift; sourceTree = "<group>"; };
 		39C5C41D23D859FE00B9FC78 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7A00542158849E6C49B6121C /* Pods_iParish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iParish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F8B2075D05852324C71521 /* Pods-iParish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iParish.release.xcconfig"; path = "Pods/Target Support Files/Pods-iParish/Pods-iParish.release.xcconfig"; sourceTree = "<group>"; };
+		D6BF0D3613BD80B23C4CD720 /* Pods-iParish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iParish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iParish/Pods-iParish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +47,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66389650DDC37441EDF050D6 /* Pods_iParish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0387FE7B54CB696E52C11F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A00542158849E6C49B6121C /* Pods_iParish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		397DC2FB22C235090034AEB9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,8 @@
 				39C5C3F123D5AA1100B9FC78 /* New Group1 */,
 				397DC30622C235090034AEB9 /* iParish */,
 				397DC30522C235090034AEB9 /* Products */,
+				C33C2910DD2B17616D17AB6F /* Pods */,
+				0387FE7B54CB696E52C11F58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +125,15 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		C33C2910DD2B17616D17AB6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6BF0D3613BD80B23C4CD720 /* Pods-iParish.debug.xcconfig */,
+				D1F8B2075D05852324C71521 /* Pods-iParish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397DC31622C2350A0034AEB9 /* Build configuration list for PBXNativeTarget "iParish" */;
 			buildPhases = (
+				9C09C97C073DB51BD7912FD6 /* [CP] Check Pods Manifest.lock */,
 				397DC30022C235090034AEB9 /* Sources */,
 				397DC30122C235090034AEB9 /* Frameworks */,
 				397DC30222C235090034AEB9 /* Resources */,
@@ -177,6 +202,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C09C97C073DB51BD7912FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iParish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		397DC30022C235090034AEB9 /* Sources */ = {
@@ -333,6 +379,7 @@
 		};
 		397DC31722C2350A0034AEB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BF0D3613BD80B23C4CD720 /* Pods-iParish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +398,7 @@
 		};
 		397DC31822C2350A0034AEB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F8B2075D05852324C71521 /* Pods-iParish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
