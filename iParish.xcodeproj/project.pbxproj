@@ -12,6 +12,13 @@
 		397DC30D22C235090034AEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397DC30B22C235090034AEB9 /* Main.storyboard */; };
 		397DC30F22C2350A0034AEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397DC30E22C2350A0034AEB9 /* Assets.xcassets */; };
 		397DC31222C2350A0034AEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397DC31022C2350A0034AEB9 /* LaunchScreen.storyboard */; };
+		39C5C3F323D5C9E400B9FC78 /* MainControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C3F223D5C9E400B9FC78 /* MainControllerViewController.swift */; };
+		39C5C3F523D6120E00B9FC78 /* CustomHomeNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C3F423D6120E00B9FC78 /* CustomHomeNavBar.swift */; };
+		39C5C3F723D74D8500B9FC78 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C3F623D74D8500B9FC78 /* Utils.swift */; };
+		39C5C3FB23D7573C00B9FC78 /* BuenosAiresWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C3F923D7573C00B9FC78 /* BuenosAiresWeb-Light.ttf */; };
+		39C5C3FC23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C3FA23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf */; };
+		39C5C41C23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C41B23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift */; };
+		39C5C41E23D859FE00B9FC78 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C41D23D859FE00B9FC78 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		397DC30E22C2350A0034AEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		397DC31122C2350A0034AEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		397DC31322C2350A0034AEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C5C3F223D5C9E400B9FC78 /* MainControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerViewController.swift; sourceTree = "<group>"; };
+		39C5C3F423D6120E00B9FC78 /* CustomHomeNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHomeNavBar.swift; sourceTree = "<group>"; };
+		39C5C3F623D74D8500B9FC78 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = iParish/Utils.swift; sourceTree = SOURCE_ROOT; };
+		39C5C3F923D7573C00B9FC78 /* BuenosAiresWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuenosAiresWeb-Light.ttf"; sourceTree = "<group>"; };
+		39C5C3FA23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BuenosAiresWeb-Bold.ttf"; sourceTree = "<group>"; };
+		39C5C41B23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentEventsTableViewCell.swift; sourceTree = "<group>"; };
+		39C5C41D23D859FE00B9FC78 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,10 @@
 		397DC2FB22C235090034AEB9 = {
 			isa = PBXGroup;
 			children = (
+				39C5C3FA23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf */,
+				39C5C3F923D7573C00B9FC78 /* BuenosAiresWeb-Light.ttf */,
+				39C5C3F823D7551600B9FC78 /* New Group */,
+				39C5C3F123D5AA1100B9FC78 /* New Group1 */,
 				397DC30622C235090034AEB9 /* iParish */,
 				397DC30522C235090034AEB9 /* Products */,
 			);
@@ -54,14 +72,42 @@
 		397DC30622C235090034AEB9 /* iParish */ = {
 			isa = PBXGroup;
 			children = (
+				39C5C3F023D5AA0600B9FC78 /* New Group */,
 				397DC30722C235090034AEB9 /* AppDelegate.swift */,
 				397DC30922C235090034AEB9 /* ViewController.swift */,
 				397DC30B22C235090034AEB9 /* Main.storyboard */,
 				397DC30E22C2350A0034AEB9 /* Assets.xcassets */,
 				397DC31022C2350A0034AEB9 /* LaunchScreen.storyboard */,
 				397DC31322C2350A0034AEB9 /* Info.plist */,
+				39C5C3F223D5C9E400B9FC78 /* MainControllerViewController.swift */,
+				39C5C3F423D6120E00B9FC78 /* CustomHomeNavBar.swift */,
+				39C5C41B23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift */,
 			);
 			path = iParish;
+			sourceTree = "<group>";
+		};
+		39C5C3F023D5AA0600B9FC78 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				39C5C3F623D74D8500B9FC78 /* Utils.swift */,
+				39C5C41D23D859FE00B9FC78 /* Extensions.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		39C5C3F123D5AA1100B9FC78 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
+			path = "iParish/New Group1";
+			sourceTree = "<group>";
+		};
+		39C5C3F823D7551600B9FC78 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				397DC31222C2350A0034AEB9 /* LaunchScreen.storyboard in Resources */,
+				39C5C3FC23D7573C00B9FC78 /* BuenosAiresWeb-Bold.ttf in Resources */,
 				397DC30F22C2350A0034AEB9 /* Assets.xcassets in Resources */,
 				397DC30D22C235090034AEB9 /* Main.storyboard in Resources */,
+				39C5C3FB23D7573C00B9FC78 /* BuenosAiresWeb-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C5C3F723D74D8500B9FC78 /* Utils.swift in Sources */,
 				397DC30A22C235090034AEB9 /* ViewController.swift in Sources */,
+				39C5C3F323D5C9E400B9FC78 /* MainControllerViewController.swift in Sources */,
+				39C5C41C23D84ACD00B9FC78 /* RecentEventsTableViewCell.swift in Sources */,
 				397DC30822C235090034AEB9 /* AppDelegate.swift in Sources */,
+				39C5C3F523D6120E00B9FC78 /* CustomHomeNavBar.swift in Sources */,
+				39C5C41E23D859FE00B9FC78 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +342,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vofili.mobile.iParish;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valbase365.iparish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +360,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vofili.mobile.iParish;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valbase365.iparish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
